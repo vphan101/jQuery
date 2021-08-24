@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Toggle</title>
+    <style>
+    p { width:400px;}
+    </style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+<body>
+
+    <button>Toggle</button>
+    <p>
+        This is a paragraph to end all paragraphs. You should
+        feel <em>licky</em> to have such a paragraph in your life. 
+        Congrats.
+    </p>
+
+    <script>
+    $("button").click(function() {
+        $("p").slideToggle("slow");
+    })
+    </script>
+    
+</body>
+</html>
